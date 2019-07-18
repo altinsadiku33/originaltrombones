@@ -1,0 +1,136 @@
+body{
+	background-color: #FFEFD5
+}
+#logo{
+	width: 40%;
+	padding-right: 20%;
+
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	color: black;
+	padding-right: 70px;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+
+}
+.menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	line-height: 1.5; 
+}
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.text{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+a{
+	text-decoration: none;
+	color: grey;
+
+}
+.icon{
+	margin-top: 55px;
+	margin-right: 35px;
+	font-size: 70px;
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+	color: darkorange;
+}
+.content{
+	display: flex;
+	padding-right: 22%;
+	padding-left: 22%;
+	column-gap: 1,5em;
+}
+{
+	background-color: lightgrey;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.columns {
+flex-direction: row;
+  width: 20%;
+  padding: 8px;
+  display: flex;
+  
+}	#pricing{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+	background-color: lightgrey;
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+.price .header {
+	display: flex;
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: darkorange;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+#video{
+	margin-top: 30px;
+}
+footer{
+	display: flex;
+	justify-content: flex-end;
+}
+#butoni1{
+	padding-bottom: 105%
+	background-color: darkorange;
+	cursor: pointer;
+	border: 0;
+	box-shadow: none;
+	border-radius: 3px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
